@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--Perhaps add a claro namespace?-->
+
+<!--Defining ontology-->
+<xsd:element name="Ontology">
+	<xsd:complexType>
+	<xsd:attribute name="URI" type="xsd:anyURI"/>
+	</xsd:complexType>
+</xsd:element>
+
+
+<!--Defining base chunks-->
+<xsd:complexType name="TemplateChunk" abstract="true">
+	<xsd:attribute name="ID" type="xsd:integer"/>
+	<xsd:attribute name="value" type="xsd:string"/>
+</xsd:complexType>
+
+
+<!--Defining concrete chunks-->
+<xsd:element name="EntityChunk" type="TemplateChunk"/>
+
+<xsd:element name="OptionalChunk" abstract="true">
+	<xsd:complexType>
+	<xsd:complexContent>
+		<xsd:extension base="TemplateChunk"/>
+	</xsd:complexContent>
+	</xsd:complexType>
+</xsd:element>
+<xsd:element name="TextChunk" substitutionGroup="OptionalChunk" />
+<xsd:element name="PredicateChunk" substitutionGroup="OptionalChunk"/>
+
+
+<!--Defining CQ template-->
+<xsd:element name="CQTemplate">
+	<xsd:complexType>
+		<xsd:complexContent>
+			<xsd:extension base="TemplateChunk">
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element name="EntityChunk" minOccurs="1" maxOccurs="unbounded"/>
+				<xsd:element ref="OptionalChunk" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="CQTemplate" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:choice>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+</xsd:element>
+
+<!--Defining CQ template list-->
+<xsd:element name="CQTemplateList">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="CQTemplate" minOccurs="2" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+
+
+<!--Defining CQ-->
+<xsd:element name="CQ">
+	<xsd:complexType>
+		<xsd:complexContent>
+			<xsd:extension base="TemplateChunk">
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element name="Ontology" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="CQTemplate" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:choice>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+</xsd:element>
+
+<!--Defining CQ list-->
+<xsd:element name="CQList">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="CQ" minOccurs="2" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+
+
+<!--Defining CQ + Template Pair-->
+<xsd:element name="CQTemplatePair">
+	<xsd:complexType>
+		<xsd:choice maxOccurs="2">
+			<xsd:element name="CQ" minOccurs="1" maxOccurs="1" />
+			<xsd:element name="CQTemplate" minOccurs="1" maxOccurs="1"/>
+		</xsd:choice>
+	</xsd:complexType>
+</xsd:element>
+
+
+<!--Defining CQ + Template Pair list-->
+<xsd:element name="CQTemplatePairList">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="CQTemplatePair" minOccurs="2" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+
+
+</xsd:schema>

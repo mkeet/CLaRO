@@ -8,7 +8,7 @@ We aim to fill this gap by proposing the CLaRO template-based Controlled Natural
 
 The CNL was evaluated with a subset of questions from the original dataset and with two sets of newly sourced competency questions. The coverage of CLaRO, with its 90 main templates and 41 linguistic variants, is about 90% for unseen questions. CLaRO has the potential to facilitate streamlining formalising ontology content requirements and, given that about one third of the competency questions in the test sets turned out to be invalid questions, assist in writing good questions.  
 
-## Resources on this gethub repo
+## Resources on this github repo
 This repository has the following resources:
 - the 131 templates of CLaRO, in xml and in txt
 - the evaluation data and results of CLaRO
@@ -16,4 +16,4 @@ This repository has the following resources:
 - a tool to author questions using the CLaRO template
 
 ## citing CLaRO
-TR TBA, as well as the zenodo DOI.
+full reference TBA in the upcoming days, as well as the zenodo DOI.

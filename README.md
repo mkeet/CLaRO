@@ -11,9 +11,9 @@ The CNL was evaluated with a subset of questions from the original dataset and w
 ## Resources on this github repo
 This repository has the following resources:
 - the 131 templates of CLaRO, in xml and in txt
-- the evaluation data and results of CLaRO
+- the data and results of the CLaRO evaluation
 - a data file with annoutations how CLaRO was created
 - a tool to author questions using the CLaRO template
 
-## citing CLaRO
+## Citing CLaRO
 full reference TBA in the upcoming days, as well as the zenodo DOI.

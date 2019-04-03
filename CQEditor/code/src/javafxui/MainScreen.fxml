@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.161-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="cqTextField" layoutX="71.0" layoutY="107.0" prefHeight="26.0" prefWidth="459.0" promptText="Type competency question" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+      <Label layoutX="180.0" layoutY="54.0" text="" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="250.0" />
+      <MenuBar layoutX="-6.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="openFileMenuitem" mnemonicParsing="false" text="Open..." />
+                  <MenuItem fx:id="saveFileMenuItem" mnemonicParsing="false" text="Save..." />
+                  <MenuItem fx:id="closeFileMenuItem" mnemonicParsing="false" text="Close" visible="false" />
+                  <MenuItem fx:id="exitMenuItem" mnemonicParsing="false" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Options">
+            <items>
+              <CheckMenuItem fx:id="startsWithMenuItem" mnemonicParsing="false" selected="true" text="Match from front" visible="true" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ListView fx:id="existingCQListView" layoutX="180.0" layoutY="155.0" prefHeight="200.0" prefWidth="200.0" visible="false" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="150.0" />
+      <Label fx:id="infoLabel" layoutX="12.0" layoutY="370.0" text="" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="30.0" />
+   </children>
+</AnchorPane>

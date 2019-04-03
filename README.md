@@ -17,3 +17,6 @@ This repository has the following resources:
 
 ## Citing CLaRO
 full reference TBA in the upcoming days, as well as the zenodo DOI.
+
+## Availability for use and reuse
+CLaRO is available under a CC-BY lincence

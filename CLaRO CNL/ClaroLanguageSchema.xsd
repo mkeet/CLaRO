@@ -14,11 +14,12 @@
 	<xsd:attribute name="value" type="xsd:string"/>
 </xsd:complexType>
 
-<xsd:element name="Record" abstract="true"/>
-
-
 <!--Defining concrete chunks-->
-<xsd:element name="EntityChunk" type="TemplateChunk"/>
+<xsd:complexType name="EntityChunk">
+	<xsd:complexContent>
+		<xsd:extension base="TemplateChunk"/>
+	</xsd:complexContent>
+</xsd:complexType>
 
 <xsd:element name="OptionalChunk" abstract="true">
 	<xsd:complexType>
@@ -32,7 +33,7 @@
 
 
 <!--Defining CQ template-->
-<xsd:element name="CQTemplate" substitutionGroup="Record">
+<xsd:element name="CQTemplate">
 	<xsd:complexType>
 			<xsd:complexContent>
 				<xsd:extension base="TemplateBase">
@@ -55,7 +56,7 @@
 
 
 <!--Defining CQ-->
-<xsd:element name="CQ" substitutionGroup="Record">
+<xsd:element name="CQ">
 	<xsd:complexType>
 		<xsd:complexContent>
 			<xsd:extension base="TemplateBase">
@@ -71,9 +72,10 @@
 <!--Defining CQ/Template list-->
 <xsd:element name="RecordList">
 	<xsd:complexType>
-		<xsd:sequence>
-			<xsd:element ref="Record" minOccurs="2" maxOccurs="unbounded"/>
-		</xsd:sequence>
+		<xsd:choice minOccurs="2" maxOccurs="unbounded">
+			<xsd:element name="CQ" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element name="CQTemplate" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:choice>
 	</xsd:complexType>
 </xsd:element>
 

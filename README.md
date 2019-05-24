@@ -1,5 +1,5 @@
 # CLaRO
-**C**ompetency question **La**nguage for specifying **R**equirements for an **O**ntology and related artefacts
+**C**ompetency question **La**nguage for specifying **R**equirements for an **O**ntology and similar artefacts
 
 ## Introduction
 Competency Questions (CQs) for an ontology aim to demarcate the scope of its contents. They are  sparsely used in ontology development, however, likely because there is no tooling and automation for writing them and evaluating them against the ontology, therewith hampering their effective use. Regarding support for authoring CQs, there are a few question templates based on informal analyses of a small number of competency questions, hence, with limited coverage of question types and sentence constructions. No Controlled Natural Language exists to guide the domain experts to author CQs. 

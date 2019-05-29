@@ -13,7 +13,7 @@ This repository has the following resources:
 - the 134 templates of CLaRO, in xml and in txt
 - the data and results of the CLaRO evaluation
 - a data file with annotations how CLaRO was created
-- a tool to author questions using the CLaRO template
+- a tool to author questions using the CLaRO templates
 
 ## Citing CLaRO
 full reference TBA in the upcoming days, as well as the zenodo DOI.

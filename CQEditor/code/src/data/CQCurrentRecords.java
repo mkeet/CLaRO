@@ -67,7 +67,9 @@ public class CQCurrentRecords {
 
     public void addCQ(String question, CQTemplate template) {
         CQ cq = new CQ();
-        questions.cqOrCQTemplate = new LinkedList<JAXBElement<?>>();
+        if (questions.cqOrCQTemplate == null) {
+            questions.cqOrCQTemplate = new LinkedList<JAXBElement<?>>();
+        }
         //TODO: Need to implement assigning id's to new questions
         cq.setValue(question);
         if (template!= null) {
@@ -88,6 +90,10 @@ public class CQCurrentRecords {
 
     public void addCQ(CQ question) {
         questions.cqOrCQTemplate.add(CQXMLFileHandler.xmlObjectCreator.createCQ(question));
+    }
+
+    public void setFile(File f) {
+        this.f = f;
     }
 
     public File getFile() {

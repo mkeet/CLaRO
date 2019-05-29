@@ -121,8 +121,13 @@ public class MainScreenController implements Initializable, DeleteQuestionListen
                     CQXMLFileHandler.write(fileToBeSaved, openRecords.getRecordList());
 
                     openRecords.setHasUnsavedCQs(false);
+                    if (!openRecords.hasFile()) {
+                        openRecords.setFile(fileToBeSaved);
+                    }
+
                     onSaveCurrentFile(new SaveFileEvent(openRecords.hasFile()? openRecords.getFilename():fileToBeSaved.getName()));
                     onInformUser(new InformUserEvent("Saved file."));
+
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -238,6 +243,7 @@ public class MainScreenController implements Initializable, DeleteQuestionListen
         }
 
         cqTextField.setOnKeyPressed(addQuestionHandler);
+        cqTextField.getParent().requestFocus();
         openFileMenuitem.setOnAction(openFilehandler);
         openFileMenuitem.setAccelerator(controlOpen);
         closeFileMenuItem.setOnAction(closeFilehandler);
@@ -296,16 +302,17 @@ public class MainScreenController implements Initializable, DeleteQuestionListen
 
     public void onNewQuestionAdded(AddNewQuestionEvent e) {
         cqTextField.setText("");
-        listViewItems.add(e.getQuestion());
-        
-        openRecords.addCQ(e.getQuestion(), lastSelectedTemplate);
 
+        listViewItems.add(e.getQuestion());
+        openRecords.addCQ(e.getQuestion(), lastSelectedTemplate);
         openRecords.setHasUnsavedCQs(true);
+
         if (openRecords.hasFile()) {
             JFXCQLaucher.JFXCQLaucherStage.setTitle("*" + openRecords.getFilename());
         } else {
             JFXCQLaucher.JFXCQLaucherStage.setTitle("*Untitled");
         }
+
         onOpenRecordsChange();
     }
 
@@ -314,6 +321,7 @@ public class MainScreenController implements Initializable, DeleteQuestionListen
         listViewItems.remove(e.getQuestion());
         openRecords.removeCQ(e.getQuestion());
         openRecords.setHasUnsavedCQs(true);
+
         if (openRecords.hasFile()) {
             JFXCQLaucher.JFXCQLaucherStage.setTitle("*" + openRecords.getFilename());
         } else {
@@ -336,22 +344,25 @@ public class MainScreenController implements Initializable, DeleteQuestionListen
     public void onCloseCurrentFile(CloseFileEvent e) {
         openRecords = new CQCurrentRecords();
         listViewItems.clear();
-        JFXCQLaucher.JFXCQLaucherStage.setTitle("CQAuthor");
+        JFXCQLaucher.JFXCQLaucherStage.setTitle("");
         closeFileMenuItem.setVisible(false);
         onOpenRecordsChange();
     }
 
     public void onSaveCurrentFile(SaveFileEvent e) {
         JFXCQLaucher.JFXCQLaucherStage.setTitle(e.getFilename());
+
         onOpenRecordsChange();
     }
 
     public void onOpenRecordsChange() {
+
         if (listViewItems.isEmpty() && openRecords.isEmpty()) {
             existingCQListView.setVisible(false);
         } else {
             existingCQListView.setVisible(true);
         }
+
         if (openRecords.hasUnSavedQs()) {
             closeFileMenuItem.setVisible(true);
         }
@@ -359,10 +370,11 @@ public class MainScreenController implements Initializable, DeleteQuestionListen
         if (openRecords!=null && !openRecords.hasFile() && listViewItems.size()==0) {
             openRecords = new CQCurrentRecords();
             listViewItems.clear();
-            JFXCQLaucher.JFXCQLaucherStage.setTitle("CQAuthor");
+            JFXCQLaucher.JFXCQLaucherStage.setTitle("");
             closeFileMenuItem.setVisible(false);
         }
         lastSelectedTemplate = null;
+
     }
 
 }

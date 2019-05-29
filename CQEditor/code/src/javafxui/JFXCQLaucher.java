@@ -24,7 +24,6 @@ public class JFXCQLaucher extends Application {
         loader.setController(new MainScreenController());
         Parent root =  loader.load();
 
-        primaryStage.setTitle("CQAuthor");
         primaryStage.setScene(new Scene(root, CONFIG.WINDOW_WIDTH, CONFIG.WINDOW_HEIGHT));
         primaryStage.show();
     }

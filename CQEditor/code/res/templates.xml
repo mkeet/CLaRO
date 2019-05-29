@@ -1,943 +1,973 @@
-<?xml version="1.0"?>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
 <RecordList>
-    <CQTemplate ID="1" value="Is there [EC1] for [EC2]?">
-        <TextChunk ID="1" value="Is there"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="for"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="1a" value="Are there any [EC1] for [EC2]?">
-        <TextChunk ID="1" value="Are there any"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="for"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="2" value="Is there [EC1] [PC1] [EC2] [PC1]?">
-        <TextChunk ID="1" value="Is there"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <PredicateChunk ID="5" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="2a" value="Are there any [EC1] [PC1] [EC2] [PC1]?">
-        <TextChunk ID="1" value="Are there any"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <PredicateChunk ID="5" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="3" value="Is there [EC1] to [EC2] [EC3] [PC1]?">
-        <TextChunk ID="1" value="Is there"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="to"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <EntityChunk ID="5" value="EC3"/>
-        <PredicateChunk ID="6" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="3a" value="Are there any [EC1] to [EC2] [EC3] [PC1]?">
-        <TextChunk ID="1" value="Are there any"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="to"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <EntityChunk ID="5" value="EC3"/>
-        <PredicateChunk ID="6" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="4" value="Is there [EC1] in [EC2]?">
-        <TextChunk ID="1" value="Is there"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="in"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="4a" value="Are there [EC1] in [EC2]?">
-        <TextChunk ID="1" value="Are there"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="in"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="5" value="At what [EC1] [PC1] [EC2] of [EC3] [PC1]?">
-        <TextChunk ID="1" value="At what"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="of"/>
-        <EntityChunk ID="6" value="EC3"/>
-        <PredicateChunk ID="7" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="6" value="[PC1] [EC1] of [EC2]?">
-        <PredicateChunk ID="1" value="PC1"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="of"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="6a" value="Can we [PC1] [EC1] of [EC2]?">
-        <TextChunk ID="1" value="Can we"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <TextChunk ID="4" value="of"/>
-        <EntityChunk ID="5" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="7" value="Who [PC1] [EC1] or [PC2] [EC2]?">
-        <TextChunk ID="1" value="Who"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <TextChunk ID="4" value="or"/>
-        <PredicateChunk ID="5" value="PC2"/>
-        <EntityChunk ID="6" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="7a" value="Do I know [EC1] who [PC1] [EC2] or [PC1] [EC3]?">
-        <TextChunk ID="1" value="Do I know"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="who"/>
-        <PredicateChunk ID="4" value="PC1"/>
-        <EntityChunk ID="5" value="EC2"/>
-        <TextChunk ID="6" value="or"/>
-        <PredicateChunk ID="7" value="PC1"/>
-        <EntityChunk ID="8" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="8" value="Does [EC1] have [EC2]?">
-        <TextChunk ID="1" value="Does"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="have"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="9" value="Does [EC1] of [EC2] [PC1] [EC3]?">
-        <TextChunk ID="1" value="Does"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="of"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <PredicateChunk ID="5" value="PC1"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="10" value="Given [EC1], what are [EC2] for [EC3] of [EC4]?">
-        <TextChunk ID="1" value="Given"/>
-        <EntityChunk ID="2" value="EC1]"/>
-        <TextChunk ID="3" value="what are"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="for"/>
-        <EntityChunk ID="6" value="EC3"/>
-        <TextChunk ID="7" value="of"/>
-        <EntityChunk ID="8" value="EC4"/>
-    </CQTemplate>
-    <CQTemplate ID="11" value="Where [PC1] [EC1] [PC1]?">
-        <TextChunk ID="1" value="Where"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <PredicateChunk ID="4" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="11a" value="How and where [PC1] [EC1] [PC1] in the past?">
-        <TextChunk ID="1" value="How and where"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <PredicateChunk ID="4" value="PC1"/>
-        <TextChunk ID="9" value="in the past"/>
-    </CQTemplate>
-    <CQTemplate ID="12" value="How [EC1] is [EC2]?">
-        <TextChunk ID="1" value="How"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="is"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="13" value="How [EC1] [PC1] is [EC2] for [EC3]?">
-        <TextChunk ID="1" value="How"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <TextChunk ID="4" value="is"/>
-        <EntityChunk ID="5" value="EC2"/>
-        <TextChunk ID="6" value="for"/>
-        <EntityChunk ID="7" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="14" value="How long [PC1] [EC1] [PC1]?">
-        <TextChunk ID="1" value="How long"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <PredicateChunk ID="4" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="15" value="How many [EC1] [PC1] [EC2]?">
-        <TextChunk ID="1" value="How many"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="15a" value="How many [EC1] [PC1] I [PC1] [EC2]?">
-        <TextChunk ID="1" value="How many"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <TextChunk ID="4" value="I"/>
-        <PredicateChunk ID="5" value="PC1"/>
-        <EntityChunk ID="6" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="15b" value="How many [EC1] [PC1] we [PC1] [EC2] [EC3]?">
-        <TextChunk ID="1" value="How many"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <TextChunk ID="4" value="we"/>
-        <PredicateChunk ID="5" value="PC1"/>
-        <EntityChunk ID="6" value="EC2"/>
-        <EntityChunk ID="7" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="16" value="How [PC1] [EC1]?">
-        <TextChunk ID="1" value="How"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-    </CQTemplate>
-    <CQTemplate ID="16a" value="How [PC1] I [PC1] [EC1]?">
-        <TextChunk ID="1" value="How"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <TextChunk ID="3" value="I"/>
-        <PredicateChunk ID="4" value="PC1"/>
-        <EntityChunk ID="5" value="EC1"/>
-    </CQTemplate>
-    <CQTemplate ID="17" value="How [PC1] [EC1] [PC1] [EC2]?">
-        <TextChunk ID="1" value="How"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <PredicateChunk ID="4" value="PC1"/>
-        <EntityChunk ID="5" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="17a" value="How [PC1] I [PC1] [EC1] [PC1] [EC2]?">
-        <TextChunk ID="1" value="How"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <TextChunk ID="3" value="I"/>
-        <PredicateChunk ID="4" value="PC1"/>
-        <EntityChunk ID="5" value="EC1"/>
-        <PredicateChunk ID="6" value="PC1"/>
-        <EntityChunk ID="7" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="18" value="How [PC1] [EC1] with [EC2] [PC1]?">
-        <TextChunk ID="1" value="How"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <TextChunk ID="4" value="with"/>
-        <EntityChunk ID="5" value="EC2"/>
-        <PredicateChunk ID="6" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="18a" value="How [PC1] I [PC1] [EC1] [PC1] [EC2]?">
-        <TextChunk ID="1" value="How"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <TextChunk ID="3" value="I"/>
-        <PredicateChunk ID="4" value="PC1"/>
-        <EntityChunk ID="5" value="EC1"/>
-        <PredicateChunk ID="6" value="PC1"/>
-        <EntityChunk ID="7" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="19" value="In what [EC1] [PC1] [EC2] [PC2]?">
-        <TextChunk ID="1" value="In what"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <PredicateChunk ID="5" value="PC2"/>
-    </CQTemplate>
-    <CQTemplate ID="20" value="In what kind of [EC1] [PC1] [EC2] [PC1]?">
-        <TextChunk ID="1" value="In what kind of"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <PredicateChunk ID="5" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="21" value="In which [EC1] are [EC2] in [EC3]?">
-        <TextChunk ID="1" value="In which"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="are"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="in"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="22" value="Is [EC1] [EC2]?">
-        <TextChunk ID="1" value="Is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <EntityChunk ID="3" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="22a" value="Is [EC1] [EC2] or not?">
-        <TextChunk ID="1" value="Is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <EntityChunk ID="3" value="EC2"/>
-        <TextChunk ID="5" value="or not"/>
-    </CQTemplate>
-    <CQTemplate ID="23" value="Is [EC1] [EC2] for [EC3]?">
-        <TextChunk ID="1" value="Is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <EntityChunk ID="3" value="EC2"/>
-        <TextChunk ID="4" value="for"/>
-        <EntityChunk ID="5" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="24" value="Is [EC1] [EC2] or [EC3]?">
-        <TextChunk ID="1" value="Is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <EntityChunk ID="3" value="EC2"/>
-        <TextChunk ID="4" value="or"/>
-        <EntityChunk ID="5" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="25" value="Is [EC1] of [EC2] [EC3]?">
-        <TextChunk ID="1" value="Is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="of"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <EntityChunk ID="5" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="26" value="Is there [EC1] for [EC2] and where [PC1] [EC3]?">
-        <TextChunk ID="1" value="Is there"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="for"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="and where"/>
-        <PredicateChunk ID="6" value="PC1"/>
-        <EntityChunk ID="7" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="26a" value="Is there any [EC1] for [EC2] and where [PC1] I [PC1] [EC3]?">
-        <TextChunk ID="1" value="Is there any"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="for"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="and where"/>
-        <PredicateChunk ID="6" value="PC1"/>
-        <TextChunk ID="7" value="I"/>
-        <PredicateChunk ID="8" value="PC1"/>
-        <EntityChunk ID="9" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="27" value="Is there [EC1] with [EC2]?">
-        <TextChunk ID="1" value="Is there"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="with"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="28" value="[PC1] [EC1] and [EC2] [PC1] [EC3]?">
-        <PredicateChunk ID="1" value="PC1"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="and"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <PredicateChunk ID="5" value="PC1"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="29" value="[PC1] [EC1] [PC1] [EC2]?">
-        <PredicateChunk ID="1" value="PC1"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="29a" value="[PC1] I [PC1] [EC1] [PC1] [EC2]?">
-        <PredicateChunk ID="1" value="PC1"/>
-        <TextChunk ID="2" value="I"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC1"/>
-        <PredicateChunk ID="5" value="PC1"/>
-        <EntityChunk ID="6" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="29b" value="To what extent [PC1] [EC1] [PC1] [EC2]?">
-        <TextChunk ID="1" value="To what extent"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <PredicateChunk ID="4" value="PC1"/>
-        <EntityChunk ID="5" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="30" value="[PC1] [EC1] [PC1] [EC2] that are [EC3] from [EC4]?">
-        <PredicateChunk ID="1" value="PC1"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="that are"/>
-        <EntityChunk ID="6" value="EC3"/>
-        <TextChunk ID="7" value="from"/>
-        <EntityChunk ID="8" value="EC4"/>
-    </CQTemplate>
-    <CQTemplate ID="31" value="[PC1] [EC1] [PC1] [EC2] to [EC3]?">
-        <PredicateChunk ID="1" value="PC1"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="to"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="32" value="[PC1] [EC1] [PC2] [EC2]?">
-        <PredicateChunk ID="1" value="PC1"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC2"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="33" value="[PC1] [EC1] if [EC2] [PC2] [EC3]?">
-        <PredicateChunk ID="1" value="PC1"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="if"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <PredicateChunk ID="5" value="PC2"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="33a" value="[PC1] I [PC1] [EC1] if [EC2] [PC2] [EC3]?">
-        <PredicateChunk ID="1" value="PC1"/>
-        <TextChunk ID="2" value="I"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC1"/>
-        <TextChunk ID="5" value="if"/>
-        <EntityChunk ID="6" value="EC2"/>
-        <PredicateChunk ID="7" value="PC2"/>
-        <EntityChunk ID="8" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="34" value="[PC1] [EC1] on [EC2]?">
-        <PredicateChunk ID="1" value="PC1"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="on"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="34a" value="[PC1] I [PC1] [EC1] on [EC2]?">
-        <PredicateChunk ID="1" value="PC1"/>
-        <TextChunk ID="2" value="I"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC1"/>
-        <TextChunk ID="5" value="on"/>
-        <EntityChunk ID="6" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="35" value="[PC1] some [EC1] of [EC2] for [EC3]?">
-        <PredicateChunk ID="1" value="PC1"/>
-        <TextChunk ID="2" value="some"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <TextChunk ID="4" value="of"/>
-        <EntityChunk ID="5" value="EC2"/>
-        <TextChunk ID="6" value="for"/>
-        <EntityChunk ID="7" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="35a" value="[PC1] I [PC1] some [EC1] of [EC2] for [EC3]?">
-        <PredicateChunk ID="1" value="PC1"/>
-        <TextChunk ID="2" value="I"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <TextChunk ID="4" value="some"/>
-        <EntityChunk ID="5" value="EC1"/>
-        <TextChunk ID="6" value="of"/>
-        <EntityChunk ID="7" value="EC2"/>
-        <TextChunk ID="8" value="for"/>
-        <EntityChunk ID="9" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="36" value="What are [EC1] and [EC2] for [EC3]?">
-        <TextChunk ID="1" value="What are"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="and"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="for"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="37" value="What are [EC1] and [EC2] of [EC3]?">
-        <TextChunk ID="1" value="What are"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="and"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="of"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="38" value="What is [EC1] for [EC2]?">
-        <TextChunk ID="1" value="What is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="for"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="38a" value="What are [EC1] for [EC2]?">
-        <TextChunk ID="1" value="What are"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="for"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="39" value="What are [EC1] that have [EC2]?">
-        <TextChunk ID="1" value="What are"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="that have"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="40" value="What are [EC1] to [EC2]?">
-        <TextChunk ID="1" value="What are"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="to"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="41" value="What are the differences between [EC1] of [EC2]?">
-        <TextChunk ID="1" value="What are the differences between"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="of"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="42" value="What are the main types of [EC1]?">
-        <TextChunk ID="1" value="What are the main types of"/>
-        <EntityChunk ID="2" value="EC1"/>
-    </CQTemplate>
-    <CQTemplate ID="42a" value="What are the main categories of [EC1]?">
-        <TextChunk ID="1" value="What are the main categories of"/>
-        <EntityChunk ID="2" value="EC1"/>
-    </CQTemplate>
-    <CQTemplate ID="43" value="What are the main types of [EC1] [EC2] [PC1]?">
-        <TextChunk ID="1" value="What are the main types of"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <EntityChunk ID="3" value="EC2"/>
-        <PredicateChunk ID="4" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="44" value="What are the types of [EC1]?">
-        <TextChunk ID="1" value="What are the types of"/>
-        <EntityChunk ID="2" value="EC1"/>
-    </CQTemplate>
-    <CQTemplate ID="44a" value="What are the possible types of [EC1]?">
-        <TextChunk ID="1" value="What are the possible types of"/>
-        <EntityChunk ID="2" value="EC1"/>
-    </CQTemplate>
-    <CQTemplate ID="45" value="What do [EC1] [PC1] [EC2] [EC3]?">
-        <TextChunk ID="1" value="What do"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <EntityChunk ID="5" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="46" value="What [EC1] are in [EC2] of [EC3]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="are in"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="of"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="47" value="What [EC1] are of [EC2] with respect to [EC3]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="are of"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="with respect to"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="48" value="What [EC1] does [EC2] have, and what is its [EC3]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="does"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="have, and what is its"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="49" value="What [EC1] from [EC2] [PC1] [EC3], [EC4]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="from"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <PredicateChunk ID="5" value="PC1"/>
-        <EntityChunk ID="6" value="EC3]"/>
-        <EntityChunk ID="7" value="EC4"/>
-    </CQTemplate>
-    <CQTemplate ID="50" value="What [EC1] is of [EC2] regarding [EC3]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="is of"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="regarding"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="51" value="What [EC1] is of [EC2] regarding [EC3] and [EC4]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="is of"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="regarding"/>
-        <EntityChunk ID="6" value="EC3"/>
-        <TextChunk ID="7" value="and"/>
-        <EntityChunk ID="8" value="EC4"/>
-    </CQTemplate>
-    <CQTemplate ID="52" value="What [EC1] [PC1] [EC1] or [EC2] that [PC2] [EC3]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC1"/>
-        <TextChunk ID="5" value="or"/>
-        <EntityChunk ID="6" value="EC2"/>
-        <TextChunk ID="7" value="that"/>
-        <PredicateChunk ID="8" value="PC2"/>
-        <EntityChunk ID="9" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="53" value="What [EC1] [PC1] [EC2]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="53a" value="What [EC1] [PC1] I [PC1] [EC2]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <TextChunk ID="4" value="I"/>
-        <PredicateChunk ID="5" value="PC1"/>
-        <EntityChunk ID="6" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="54" value="What [EC1] [PC1] [EC2] given [EC3]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="given"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="55" value="What [EC1] [PC1] [EC2] [PC1]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <PredicateChunk ID="5" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="56" value="What [EC1] [PC1] [EC2] in [EC3]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="in"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="56a" value="What [EC1] [PC1] I [PC1] [EC2] in [EC3]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <TextChunk ID="4" value="I"/>
-        <PredicateChunk ID="5" value="PC1"/>
-        <EntityChunk ID="6" value="EC2"/>
-        <TextChunk ID="7" value="in"/>
-        <EntityChunk ID="8" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="57" value="What [EC1] [PC1] [EC2] on [EC3]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="on"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="57a" value="What [EC1] [PC1] I [PC1] [EC2] on [EC3]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <TextChunk ID="4" value="I"/>
-        <PredicateChunk ID="5" value="PC1"/>
-        <EntityChunk ID="6" value="EC2"/>
-        <TextChunk ID="7" value="on"/>
-        <EntityChunk ID="8" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="58" value="What [EC1] [PC1] [EC2] [PC1] [EC3]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <PredicateChunk ID="5" value="PC1"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="58a" value="What [EC1] [PC1] I [PC1] [EC2] [PC1] [EC3]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <TextChunk ID="4" value="I"/>
-        <PredicateChunk ID="5" value="PC1"/>
-        <EntityChunk ID="6" value="EC2"/>
-        <PredicateChunk ID="7" value="PC1"/>
-        <EntityChunk ID="8" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="59" value="What [EC1] to [EC2] are there?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="to"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="6" value="are there"/>
-    </CQTemplate>
-    <CQTemplate ID="60" value="What is [EC1] of [EC2]?">
-        <TextChunk ID="1" value="What is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="of"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="61" value="What is [EC1] of [EC2] for [EC3]?">
-        <TextChunk ID="1" value="What is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="of"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="for"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="62" value="What is [EC1] of [EC2] that have [EC3]?">
-        <TextChunk ID="1" value="What is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="of"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="that have"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="63" value="What is [EC1] of [EC2] that have [EC3] and [EC4]?">
-        <TextChunk ID="1" value="What is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="of"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="that have"/>
-        <EntityChunk ID="6" value="EC3"/>
-        <TextChunk ID="7" value="and"/>
-        <EntityChunk ID="8" value="EC4"/>
-    </CQTemplate>
-    <CQTemplate ID="64" value="What is [EC1] of [EC2] that have [EC3] as [EC4]?">
-        <TextChunk ID="1" value="What is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="of"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="that have"/>
-        <EntityChunk ID="6" value="EC3"/>
-        <TextChunk ID="7" value="as"/>
-        <EntityChunk ID="8" value="EC4"/>
-    </CQTemplate>
-    <CQTemplate ID="65" value="What is [EC1] of [EC2] that [PC1] [EC3]?">
-        <TextChunk ID="1" value="What is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="of"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="that"/>
-        <PredicateChunk ID="6" value="PC1"/>
-        <EntityChunk ID="7" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="66" value="What is [EC1] [PC1] [EC2]?">
-        <TextChunk ID="1" value="What is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="67" value="What is the difference between [EC1] and [EC2]?">
-        <TextChunk ID="1" value="What is the difference between"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="and"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="68" value="What [PC1] [EC1]?">
-        <TextChunk ID="1" value="What"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-    </CQTemplate>
-    <CQTemplate ID="69" value="What [PC1] [EC1] of [EC2]?">
-        <TextChunk ID="1" value="What"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <TextChunk ID="4" value="of"/>
-        <EntityChunk ID="5" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="70" value="What type of [EC1] is [EC2]?">
-        <TextChunk ID="1" value="What type of"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="is"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="70a" value="What types of [EC1] are [EC2]?">
-        <TextChunk ID="1" value="What types of"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="are"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="70b" value="What kind of [EC1] is [EC2]?">
-        <TextChunk ID="1" value="What kind of"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="is"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="71" value="What types of [EC1] [PC1] [EC1]?">
-        <TextChunk ID="1" value="What types of"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC1"/>
-    </CQTemplate>
-    <CQTemplate ID="72" value="When [PC1] [EC1] of [EC2] [PC1]?">
-        <TextChunk ID="1" value="When"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <TextChunk ID="4" value="of"/>
-        <EntityChunk ID="5" value="EC2"/>
-        <PredicateChunk ID="6" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="73" value="Where do I categorise [EC1] like [EC2]?">
-        <TextChunk ID="1" value="Where do I categorise"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="like"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="74" value="Where is [EC1] of [EC2]?">
-        <TextChunk ID="1" value="Where is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="of"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="74a" value="Where's [EC1] of [EC2]?">
-        <TextChunk ID="1" value="Where's"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="of"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="75" value="Where [PC1] [EC1]?">
-        <TextChunk ID="1" value="Where"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-    </CQTemplate>
-    <CQTemplate ID="75a" value="Where [PC1] I [PC1] [EC1]?">
-        <TextChunk ID="1" value="Where"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <TextChunk ID="3" value="I"/>
-        <PredicateChunk ID="4" value="PC1"/>
-        <EntityChunk ID="5" value="EC1"/>
-    </CQTemplate>
-    <CQTemplate ID="75b" value="Where [PC1] I [PC1] [EC1] [PC1]?">
-        <TextChunk ID="1" value="Where"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <TextChunk ID="3" value="I"/>
-        <PredicateChunk ID="4" value="PC1"/>
-        <EntityChunk ID="5" value="EC1"/>
-        <PredicateChunk ID="6" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="76" value="Where [PC1] [EC1] for [EC2]?">
-        <TextChunk ID="1" value="Where"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <TextChunk ID="4" value="for"/>
-        <EntityChunk ID="5" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="76a" value="Where [PC1] I [PC1] [EC1] for [EC2]?">
-        <TextChunk ID="1" value="Where"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <TextChunk ID="3" value="I"/>
-        <PredicateChunk ID="4" value="PC1"/>
-        <EntityChunk ID="5" value="EC1"/>
-        <TextChunk ID="6" value="for"/>
-        <EntityChunk ID="7" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="77" value="Which are [EC1]?">
-        <TextChunk ID="1" value="Which are"/>
-        <EntityChunk ID="2" value="EC1"/>
-    </CQTemplate>
-    <CQTemplate ID="78" value="Which [EC1] is [EC2]?">
-        <TextChunk ID="1" value="Which"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="is"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="78a" value="Which [EC1] are [EC2]?">
-        <TextChunk ID="1" value="Which"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="are"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="78b" value="What [EC1] are [EC2]?">
-        <TextChunk ID="1" value="What"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="are"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="78c" value="Which kind of [EC1] are [EC2]?">
-        <TextChunk ID="1" value="Which kind of"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="are"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="79" value="Which [EC1] is [EC2] of [EC3]?">
-        <TextChunk ID="1" value="Which"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="is"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="of"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="79a" value="Which [EC1] are [EC2] of [EC3]?">
-        <TextChunk ID="1" value="Which"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="are"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="of"/>
-        <EntityChunk ID="6" value="EC3"/>
-    </CQTemplate>
-    <CQTemplate ID="80" value="Which [EC1] is there for [EC2] and what [PC1] [EC3] [PC1]?">
-        <TextChunk ID="1" value="Which"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="is there for"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <TextChunk ID="5" value="and what"/>
-        <PredicateChunk ID="6" value="PC1"/>
-        <EntityChunk ID="7" value="EC3"/>
-        <PredicateChunk ID="8" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="81" value="Which [EC1] [PC1] [EC2]?">
-        <TextChunk ID="1" value="Which"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="82" value="Which [EC1] [PC1] [EC2] [PC1]?">
-        <TextChunk ID="1" value="Which"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <PredicateChunk ID="5" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="82a" value="Which [EC1] [PC1] I [PC1] [EC2] [PC1]?">
-        <TextChunk ID="1" value="Which"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <TextChunk ID="4" value="I"/>
-        <PredicateChunk ID="5" value="PC1"/>
-        <EntityChunk ID="6" value="EC2"/>
-        <PredicateChunk ID="7" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="83" value="Which [EC1] [PC1] to [PC2] [EC2]?">
-        <TextChunk ID="1" value="Which"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <TextChunk ID="4" value="to"/>
-        <PredicateChunk ID="5" value="PC2"/>
-        <EntityChunk ID="6" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="83a" value="Which [EC1] [PC1] I [PC1] to [PC2] [EC2]?">
-        <TextChunk ID="1" value="Which"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <TextChunk ID="4" value="I"/>
-        <PredicateChunk ID="5" value="PC1"/>
-        <TextChunk ID="6" value="to"/>
-        <PredicateChunk ID="7" value="PC2"/>
-        <EntityChunk ID="8" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="84" value="Which is [EC1] [PC1] [EC2]?">
-        <TextChunk ID="1" value="Which is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <PredicateChunk ID="3" value="PC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="85" value="Which of the [EC1] and [EC2] [PC1] [EC3] [PC1]?">
-        <TextChunk ID="1" value="Which of the"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="and"/>
-        <EntityChunk ID="4" value="EC2"/>
-        <PredicateChunk ID="5" value="PC1"/>
-        <EntityChunk ID="6" value="EC3"/>
-        <PredicateChunk ID="7" value="PC1"/>
-    </CQTemplate>
-    <CQTemplate ID="86" value="Who is [EC1] of [EC2]?">
-        <TextChunk ID="1" value="Who is"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="of"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="86a" value="Who are [EC1] of [EC2]?">
-        <TextChunk ID="1" value="Who are"/>
-        <EntityChunk ID="2" value="EC1"/>
-        <TextChunk ID="3" value="of"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="87" value="Who [PC1] [EC1] [EC2]?">
-        <TextChunk ID="1" value="Who"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="87a" value="Who else [PC1] [EC1] [EC2]?">
-        <TextChunk ID="1" value="Who else"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <EntityChunk ID="4" value="EC2"/>
-    </CQTemplate>
-    <CQTemplate ID="88" value="Who [PC1] [EC1]?">
-        <TextChunk ID="1" value="Who"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-    </CQTemplate>
-    <CQTemplate ID="89" value="Who [PC1] [EC1] for [EC2]?">
-        <TextChunk ID="1" value="Who"/>
-        <PredicateChunk ID="2" value="PC1"/>
-        <EntityChunk ID="3" value="EC1"/>
-        <TextChunk ID="4" value="for"/>
-        <EntityChunk ID="5" value="EC2"/>
-    </CQTemplate>
+   <CQTemplate ID="29" value="[PC1] [EC1] [PC1] [EC2]">
+      <PredicateChunk ID="1" value="PC1" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="30" value="[PC1] [EC1] [PC1] [EC2] that are [EC3] from [EC4]">
+      <PredicateChunk ID="1" value="PC1" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="that are" />
+      <EntityChunk ID="6" value="EC3" />
+      <TextChunk ID="7" value="from" />
+      <EntityChunk ID="8" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="31" value="[PC1] [EC1] [PC1] [EC2] to [EC3]">
+      <PredicateChunk ID="1" value="PC1" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="to" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="32" value="[PC1] [EC1] [PC2] [EC2]">
+      <PredicateChunk ID="1" value="PC1" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC2" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="28" value="[PC1] [EC1] and [EC2] [PC1] [EC3]">
+      <PredicateChunk ID="1" value="PC1" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="and" />
+      <EntityChunk ID="4" value="EC2" />
+      <PredicateChunk ID="5" value="PC1" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="33" value="[PC1] [EC1] if [EC2] [PC2] [EC3]">
+      <PredicateChunk ID="1" value="PC1" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="if" />
+      <EntityChunk ID="4" value="EC2" />
+      <PredicateChunk ID="5" value="PC2" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="6" value="[PC1] [EC1] of [EC2]">
+      <PredicateChunk ID="1" value="PC1" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="34" value="[PC1] [EC1] on [EC2]">
+      <PredicateChunk ID="1" value="PC1" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="on" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="29a" value="[PC1] I [PC1] [EC1] [PC1] [EC2]">
+      <PredicateChunk ID="1" value="PC1" />
+      <TextChunk ID="2" value="I" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC1" />
+      <PredicateChunk ID="5" value="PC1" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="33a" value="[PC1] I [PC1] [EC1] if [EC2] [PC2] [EC3]">
+      <PredicateChunk ID="1" value="PC1" />
+      <TextChunk ID="2" value="I" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC1" />
+      <TextChunk ID="5" value="if" />
+      <EntityChunk ID="6" value="EC2" />
+      <PredicateChunk ID="7" value="PC2" />
+      <EntityChunk ID="8" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="34a" value="[PC1] I [PC1] [EC1] on [EC2]">
+      <PredicateChunk ID="1" value="PC1" />
+      <TextChunk ID="2" value="I" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC1" />
+      <TextChunk ID="5" value="on" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="35a" value="[PC1] I [PC1] some [EC1] of [EC2] for [EC3]">
+      <PredicateChunk ID="1" value="PC1" />
+      <TextChunk ID="2" value="I" />
+      <PredicateChunk ID="3" value="PC1" />
+      <TextChunk ID="4" value="some" />
+      <EntityChunk ID="5" value="EC1" />
+      <TextChunk ID="6" value="of" />
+      <EntityChunk ID="7" value="EC2" />
+      <TextChunk ID="8" value="for" />
+      <EntityChunk ID="9" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="35" value="[PC1] some [EC1] of [EC2] for [EC3]">
+      <PredicateChunk ID="1" value="PC1" />
+      <TextChunk ID="2" value="some" />
+      <EntityChunk ID="3" value="EC1" />
+      <TextChunk ID="4" value="of" />
+      <EntityChunk ID="5" value="EC2" />
+      <TextChunk ID="6" value="for" />
+      <EntityChunk ID="7" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="4a" value="Are there [EC1] in [EC2]">
+      <TextChunk ID="1" value="Are there" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="in" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="2a" value="Are there any [EC1] [PC1] [EC2] [PC1]">
+      <TextChunk ID="1" value="Are there any" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC2" />
+      <PredicateChunk ID="5" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="1a" value="Are there any [EC1] for [EC2]">
+      <TextChunk ID="1" value="Are there any" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="for" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="3a" value="Are there any [EC1] to [EC2] [EC3] [PC1]">
+      <TextChunk ID="1" value="Are there any" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="to" />
+      <EntityChunk ID="4" value="EC2" />
+      <EntityChunk ID="5" value="EC3" />
+      <PredicateChunk ID="6" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="5" value="At what [EC1] [PC1] [EC2] of [EC3] [PC1]">
+      <TextChunk ID="1" value="At what" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="of" />
+      <EntityChunk ID="6" value="EC3" />
+      <PredicateChunk ID="7" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="6a" value="Can we [PC1] [EC1] of [EC2]">
+      <TextChunk ID="1" value="Can we" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC1" />
+      <TextChunk ID="4" value="of" />
+      <EntityChunk ID="5" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="7a" value="Do I know [EC1] who [PC1] [EC2] or [PC1] [EC3]">
+      <TextChunk ID="1" value="Do I know" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="who" />
+      <PredicateChunk ID="4" value="PC1" />
+      <EntityChunk ID="5" value="EC2" />
+      <TextChunk ID="6" value="or" />
+      <PredicateChunk ID="7" value="PC1" />
+      <EntityChunk ID="8" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="8" value="Does [EC1] have [EC2]">
+      <TextChunk ID="1" value="Does" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="have" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="9" value="Does [EC1] of [EC2] [PC1] [EC3]">
+      <TextChunk ID="1" value="Does" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC2" />
+      <PredicateChunk ID="5" value="PC1" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="10" value="Given [EC1], what are [EC2] for [EC3] of [EC4]">
+      <TextChunk ID="1" value="Given" />
+      <EntityChunk ID="2" value="EC1]" />
+      <TextChunk ID="3" value="what are" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="for" />
+      <EntityChunk ID="6" value="EC3" />
+      <TextChunk ID="7" value="of" />
+      <EntityChunk ID="8" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="13" value="How [EC1] [PC1] is [EC2] for [EC3]">
+      <TextChunk ID="1" value="How" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <TextChunk ID="4" value="is" />
+      <EntityChunk ID="5" value="EC2" />
+      <TextChunk ID="6" value="for" />
+      <EntityChunk ID="7" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="12" value="How [EC1] is [EC2]">
+      <TextChunk ID="1" value="How" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="is" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="16" value="How [PC1] [EC1]">
+      <TextChunk ID="1" value="How" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="17" value="How [PC1] [EC1] [PC1] [EC2]">
+      <TextChunk ID="1" value="How" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC1" />
+      <PredicateChunk ID="4" value="PC1" />
+      <EntityChunk ID="5" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="18" value="How [PC1] [EC1] with [EC2] [PC1]">
+      <TextChunk ID="1" value="How" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC1" />
+      <TextChunk ID="4" value="with" />
+      <EntityChunk ID="5" value="EC2" />
+      <PredicateChunk ID="6" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="16a" value="How [PC1] I [PC1] [EC1]">
+      <TextChunk ID="1" value="How" />
+      <PredicateChunk ID="2" value="PC1" />
+      <TextChunk ID="3" value="I" />
+      <PredicateChunk ID="4" value="PC1" />
+      <EntityChunk ID="5" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="17a" value="How [PC1] I [PC1] [EC1] [PC1] [EC2]">
+      <TextChunk ID="1" value="How" />
+      <PredicateChunk ID="2" value="PC1" />
+      <TextChunk ID="3" value="I" />
+      <PredicateChunk ID="4" value="PC1" />
+      <EntityChunk ID="5" value="EC1" />
+      <PredicateChunk ID="6" value="PC1" />
+      <EntityChunk ID="7" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="18a" value="How [PC1] I [PC1] [EC1] [PC1] [EC2]">
+      <TextChunk ID="1" value="How" />
+      <PredicateChunk ID="2" value="PC1" />
+      <TextChunk ID="3" value="I" />
+      <PredicateChunk ID="4" value="PC1" />
+      <EntityChunk ID="5" value="EC1" />
+      <PredicateChunk ID="6" value="PC1" />
+      <EntityChunk ID="7" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="11a" value="How and where [PC1] [EC1] [PC1] in the past">
+      <TextChunk ID="1" value="How and where" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC1" />
+      <PredicateChunk ID="4" value="PC1" />
+      <TextChunk ID="9" value="in the pas" />
+   </CQTemplate>
+   <CQTemplate ID="14" value="How long [PC1] [EC1] [PC1]">
+      <TextChunk ID="1" value="How long" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC1" />
+      <PredicateChunk ID="4" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="15" value="How many [EC1] [PC1] [EC2]">
+      <TextChunk ID="1" value="How many" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="15a" value="How many [EC1] [PC1] I [PC1] [EC2]">
+      <TextChunk ID="1" value="How many" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <TextChunk ID="4" value="I" />
+      <PredicateChunk ID="5" value="PC1" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="15b" value="How many [EC1] [PC1] we [PC1] [EC2] [EC3]">
+      <TextChunk ID="1" value="How many" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <TextChunk ID="4" value="we" />
+      <PredicateChunk ID="5" value="PC1" />
+      <EntityChunk ID="6" value="EC2" />
+      <EntityChunk ID="7" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="19" value="In what [EC1] [PC1] [EC2] [PC2]">
+      <TextChunk ID="1" value="In what" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC2" />
+      <PredicateChunk ID="5" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="20" value="In what kind of [EC1] [PC1] [EC2] [PC1]">
+      <TextChunk ID="1" value="In what kind of" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC2" />
+      <PredicateChunk ID="5" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="21" value="In which [EC1] are [EC2] in [EC3]">
+      <TextChunk ID="1" value="In which" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="are" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="in" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="22" value="Is [EC1] [EC2]">
+      <TextChunk ID="1" value="Is" />
+      <EntityChunk ID="2" value="EC1" />
+      <EntityChunk ID="3" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="23" value="Is [EC1] [EC2] for [EC3]">
+      <TextChunk ID="1" value="Is" />
+      <EntityChunk ID="2" value="EC1" />
+      <EntityChunk ID="3" value="EC2" />
+      <TextChunk ID="4" value="for" />
+      <EntityChunk ID="5" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="24" value="Is [EC1] [EC2] or [EC3]">
+      <TextChunk ID="1" value="Is" />
+      <EntityChunk ID="2" value="EC1" />
+      <EntityChunk ID="3" value="EC2" />
+      <TextChunk ID="4" value="or" />
+      <EntityChunk ID="5" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="22a" value="Is [EC1] [EC2] or not">
+      <TextChunk ID="1" value="Is" />
+      <EntityChunk ID="2" value="EC1" />
+      <EntityChunk ID="3" value="EC2" />
+      <TextChunk ID="5" value="or no" />
+   </CQTemplate>
+   <CQTemplate ID="25" value="Is [EC1] of [EC2] [EC3]">
+      <TextChunk ID="1" value="Is" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC2" />
+      <EntityChunk ID="5" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="2" value="Is there [EC1] [PC1] [EC2] [PC1]">
+      <TextChunk ID="1" value="Is there" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC2" />
+      <PredicateChunk ID="5" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="1" value="Is there [EC1] for [EC2]">
+      <TextChunk ID="1" value="Is there" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="for" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="26" value="Is there [EC1] for [EC2] and where [PC1] [EC3]">
+      <TextChunk ID="1" value="Is there" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="for" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="and where" />
+      <PredicateChunk ID="6" value="PC1" />
+      <EntityChunk ID="7" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="4" value="Is there [EC1] in [EC2]">
+      <TextChunk ID="1" value="Is there" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="in" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="3" value="Is there [EC1] to [EC2] [EC3] [PC1]">
+      <TextChunk ID="1" value="Is there" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="to" />
+      <EntityChunk ID="4" value="EC2" />
+      <EntityChunk ID="5" value="EC3" />
+      <PredicateChunk ID="6" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="27" value="Is there [EC1] with [EC2]">
+      <TextChunk ID="1" value="Is there" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="with" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="26a" value="Is there any [EC1] for [EC2] and where [PC1] I [PC1] [EC3]">
+      <TextChunk ID="1" value="Is there any" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="for" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="and where" />
+      <PredicateChunk ID="6" value="PC1" />
+      <TextChunk ID="7" value="I" />
+      <PredicateChunk ID="8" value="PC1" />
+      <EntityChunk ID="9" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="29b" value="To what extent [PC1] [EC1] [PC1] [EC2]">
+      <TextChunk ID="1" value="To what extent" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC1" />
+      <PredicateChunk ID="4" value="PC1" />
+      <EntityChunk ID="5" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="52" value="What [EC1] [PC1] [EC1] or [EC2] that [PC2] [EC3]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC1" />
+      <TextChunk ID="5" value="or" />
+      <EntityChunk ID="6" value="EC2" />
+      <TextChunk ID="7" value="that" />
+      <PredicateChunk ID="8" value="PC2" />
+      <EntityChunk ID="9" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="53" value="What [EC1] [PC1] [EC2]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="55" value="What [EC1] [PC1] [EC2] [PC1]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC2" />
+      <PredicateChunk ID="5" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="58" value="What [EC1] [PC1] [EC2] [PC1] [EC3]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC2" />
+      <PredicateChunk ID="5" value="PC1" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="54" value="What [EC1] [PC1] [EC2] given [EC3]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="given" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="56" value="What [EC1] [PC1] [EC2] in [EC3]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="in" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="57" value="What [EC1] [PC1] [EC2] on [EC3]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="on" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="53a" value="What [EC1] [PC1] I [PC1] [EC2]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <TextChunk ID="4" value="I" />
+      <PredicateChunk ID="5" value="PC1" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="58a" value="What [EC1] [PC1] I [PC1] [EC2] [PC1] [EC3]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <TextChunk ID="4" value="I" />
+      <PredicateChunk ID="5" value="PC1" />
+      <EntityChunk ID="6" value="EC2" />
+      <PredicateChunk ID="7" value="PC1" />
+      <EntityChunk ID="8" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="56a" value="What [EC1] [PC1] I [PC1] [EC2] in [EC3]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <TextChunk ID="4" value="I" />
+      <PredicateChunk ID="5" value="PC1" />
+      <EntityChunk ID="6" value="EC2" />
+      <TextChunk ID="7" value="in" />
+      <EntityChunk ID="8" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="57a" value="What [EC1] [PC1] I [PC1] [EC2] on [EC3]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <TextChunk ID="4" value="I" />
+      <PredicateChunk ID="5" value="PC1" />
+      <EntityChunk ID="6" value="EC2" />
+      <TextChunk ID="7" value="on" />
+      <EntityChunk ID="8" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="78b" value="What [EC1] are [EC2]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="are" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="46" value="What [EC1] are in [EC2] of [EC3]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="are in" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="of" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="47" value="What [EC1] are of [EC2] with respect to [EC3]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="are of" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="with respect to" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="48" value="What [EC1] does [EC2] have, and what is its [EC3]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="does" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="have, and what is its" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="49" value="What [EC1] from [EC2] [PC1] [EC3], [EC4]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="from" />
+      <EntityChunk ID="4" value="EC2" />
+      <PredicateChunk ID="5" value="PC1" />
+      <EntityChunk ID="6" value="EC3]" />
+      <EntityChunk ID="7" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="50" value="What [EC1] is of [EC2] regarding [EC3]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="is of" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="regarding" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="51" value="What [EC1] is of [EC2] regarding [EC3] and [EC4]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="is of" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="regarding" />
+      <EntityChunk ID="6" value="EC3" />
+      <TextChunk ID="7" value="and" />
+      <EntityChunk ID="8" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="59" value="What [EC1] to [EC2] are there">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="to" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="6" value="are ther" />
+   </CQTemplate>
+   <CQTemplate ID="68" value="What [PC1] [EC1]">
+      <TextChunk ID="1" value="What" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="69" value="What [PC1] [EC1] of [EC2]">
+      <TextChunk ID="1" value="What" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC1" />
+      <TextChunk ID="4" value="of" />
+      <EntityChunk ID="5" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="36" value="What are [EC1] and [EC2] for [EC3]">
+      <TextChunk ID="1" value="What are" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="and" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="for" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="37" value="What are [EC1] and [EC2] of [EC3]">
+      <TextChunk ID="1" value="What are" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="and" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="of" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="38a" value="What are [EC1] for [EC2]">
+      <TextChunk ID="1" value="What are" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="for" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="60a" value="What are [EC1] of [EC2]">
+      <TextChunk ID="1" value="What are" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="39" value="What are [EC1] that have [EC2]">
+      <TextChunk ID="1" value="What are" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="that have" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="40" value="What are [EC1] to [EC2]">
+      <TextChunk ID="1" value="What are" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="to" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="41" value="What are the differences between [EC1] of [EC2]">
+      <TextChunk ID="1" value="What are the differences between" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="42a" value="What are the main categories of [EC1]">
+      <TextChunk ID="1" value="What are the main categories of" />
+      <EntityChunk ID="2" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="42" value="What are the main types of [EC1]">
+      <TextChunk ID="1" value="What are the main types of" />
+      <EntityChunk ID="2" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="43" value="What are the main types of [EC1] [EC2] [PC1]">
+      <TextChunk ID="1" value="What are the main types of" />
+      <EntityChunk ID="2" value="EC1" />
+      <EntityChunk ID="3" value="EC2" />
+      <PredicateChunk ID="4" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="44a" value="What are the possible types of [EC1]">
+      <TextChunk ID="1" value="What are the possible types of" />
+      <EntityChunk ID="2" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="44" value="What are the types of [EC1]">
+      <TextChunk ID="1" value="What are the types of" />
+      <EntityChunk ID="2" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="45" value="What do [EC1] [PC1] [EC2] [EC3]">
+      <TextChunk ID="1" value="What do" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC2" />
+      <EntityChunk ID="5" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="91" value="What [EC1] [PC1] not [EC2]">
+      <TextChunk ID="1" value="What" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <TextChunk ID="4" value="not" />
+      <EntityChunk ID="5" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="93" value="What is [EC1]">
+      <TextChunk ID="1" value="What is" />
+      <EntityChunk ID="2" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="66" value="What is [EC1] [PC1] [EC2]">
+      <TextChunk ID="1" value="What is" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="38" value="What is [EC1] for [EC2]">
+      <TextChunk ID="1" value="What is" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="for" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="60" value="What is [EC1] of [EC2]">
+      <TextChunk ID="1" value="What is" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="61" value="What is [EC1] of [EC2] for [EC3]">
+      <TextChunk ID="1" value="What is" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="for" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="65" value="What is [EC1] of [EC2] that [PC1] [EC3]">
+      <TextChunk ID="1" value="What is" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="that" />
+      <PredicateChunk ID="6" value="PC1" />
+      <EntityChunk ID="7" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="62" value="What is [EC1] of [EC2] that have [EC3]">
+      <TextChunk ID="1" value="What is" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="that have" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="63" value="What is [EC1] of [EC2] that have [EC3] and [EC4]">
+      <TextChunk ID="1" value="What is" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="that have" />
+      <EntityChunk ID="6" value="EC3" />
+      <TextChunk ID="7" value="and" />
+      <EntityChunk ID="8" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="64" value="What is [EC1] of [EC2] that have [EC3] as [EC4]">
+      <TextChunk ID="1" value="What is" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="that have" />
+      <EntityChunk ID="6" value="EC3" />
+      <TextChunk ID="7" value="as" />
+      <EntityChunk ID="8" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="67" value="What is the difference between [EC1] and [EC2]">
+      <TextChunk ID="1" value="What is the difference between" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="and" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="70b" value="What kind of [EC1] is [EC2]">
+      <TextChunk ID="1" value="What kind of" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="is" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="70" value="What type of [EC1] is [EC2]">
+      <TextChunk ID="1" value="What type of" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="is" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="71" value="What types of [EC1] [PC1] [EC1]">
+      <TextChunk ID="1" value="What types of" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="70a" value="What types of [EC1] are [EC2]">
+      <TextChunk ID="1" value="What types of" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="are" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="72" value="When [PC1] [EC1] of [EC2] [PC1]">
+      <TextChunk ID="1" value="When" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC1" />
+      <TextChunk ID="4" value="of" />
+      <EntityChunk ID="5" value="EC2" />
+      <PredicateChunk ID="6" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="75" value="Where [PC1] [EC1]">
+      <TextChunk ID="1" value="Where" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="11" value="Where [PC1] [EC1] [PC1]">
+      <TextChunk ID="1" value="Where" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC1" />
+      <PredicateChunk ID="4" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="76" value="Where [PC1] [EC1] for [EC2]">
+      <TextChunk ID="1" value="Where" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC1" />
+      <TextChunk ID="4" value="for" />
+      <EntityChunk ID="5" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="75a" value="Where [PC1] I [PC1] [EC1]">
+      <TextChunk ID="1" value="Where" />
+      <PredicateChunk ID="2" value="PC1" />
+      <TextChunk ID="3" value="I" />
+      <PredicateChunk ID="4" value="PC1" />
+      <EntityChunk ID="5" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="75b" value="Where [PC1] I [PC1] [EC1] [PC1]">
+      <TextChunk ID="1" value="Where" />
+      <PredicateChunk ID="2" value="PC1" />
+      <TextChunk ID="3" value="I" />
+      <PredicateChunk ID="4" value="PC1" />
+      <EntityChunk ID="5" value="EC1" />
+      <PredicateChunk ID="6" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="76a" value="Where [PC1] I [PC1] [EC1] for [EC2]">
+      <TextChunk ID="1" value="Where" />
+      <PredicateChunk ID="2" value="PC1" />
+      <TextChunk ID="3" value="I" />
+      <PredicateChunk ID="4" value="PC1" />
+      <EntityChunk ID="5" value="EC1" />
+      <TextChunk ID="6" value="for" />
+      <EntityChunk ID="7" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="73" value="Where do I categorise [EC1] like [EC2]">
+      <TextChunk ID="1" value="Where do I categorise" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="like" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="74" value="Where is [EC1] of [EC2]">
+      <TextChunk ID="1" value="Where is" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="74a" value="Where's [EC1] of [EC2]">
+      <TextChunk ID="1" value="Where's" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="81" value="Which [EC1] [PC1] [EC2]">
+      <TextChunk ID="1" value="Which" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="82" value="Which [EC1] [PC1] [EC2] [PC1]">
+      <TextChunk ID="1" value="Which" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC2" />
+      <PredicateChunk ID="5" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="82a" value="Which [EC1] [PC1] I [PC1] [EC2] [PC1]">
+      <TextChunk ID="1" value="Which" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <TextChunk ID="4" value="I" />
+      <PredicateChunk ID="5" value="PC1" />
+      <EntityChunk ID="6" value="EC2" />
+      <PredicateChunk ID="7" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="83a" value="Which [EC1] [PC1] I [PC1] to [PC2] [EC2]">
+      <TextChunk ID="1" value="Which" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <TextChunk ID="4" value="I" />
+      <PredicateChunk ID="5" value="PC1" />
+      <TextChunk ID="6" value="to" />
+      <PredicateChunk ID="7" value="PC2" />
+      <EntityChunk ID="8" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="83" value="Which [EC1] [PC1] to [PC2] [EC2]">
+      <TextChunk ID="1" value="Which" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <TextChunk ID="4" value="to" />
+      <PredicateChunk ID="5" value="PC2" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="78a" value="Which [EC1] are [EC2]">
+      <TextChunk ID="1" value="Which" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="are" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="79a" value="Which [EC1] are [EC2] of [EC3]">
+      <TextChunk ID="1" value="Which" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="are" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="of" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="78" value="Which [EC1] is [EC2]">
+      <TextChunk ID="1" value="Which" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="is" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="79" value="Which [EC1] is [EC2] of [EC3]">
+      <TextChunk ID="1" value="Which" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="is" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="of" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="80" value="Which [EC1] is there for [EC2] and what [PC1] [EC3] [PC1]">
+      <TextChunk ID="1" value="Which" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="is there for" />
+      <EntityChunk ID="4" value="EC2" />
+      <TextChunk ID="5" value="and what" />
+      <PredicateChunk ID="6" value="PC1" />
+      <EntityChunk ID="7" value="EC3" />
+      <PredicateChunk ID="8" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="77" value="Which are [EC1]">
+      <TextChunk ID="1" value="Which are" />
+      <EntityChunk ID="2" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="90" value="Which [EC1] does not [PC1] [EC2]">
+      <TextChunk ID="1" value="Which" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="does not" />
+      <PredicateChunk ID="4" value="PC1" />
+      <EntityChunk ID="5" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="84" value="Which is [EC1] [PC1] [EC2]">
+      <TextChunk ID="1" value="Which is" />
+      <EntityChunk ID="2" value="EC1" />
+      <PredicateChunk ID="3" value="PC1" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="78c" value="Which kind of [EC1] are [EC2]">
+      <TextChunk ID="1" value="Which kind of" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="are" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="85" value="Which of the [EC1] and [EC2] [PC1] [EC3] [PC1]">
+      <TextChunk ID="1" value="Which of the" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="and" />
+      <EntityChunk ID="4" value="EC2" />
+      <PredicateChunk ID="5" value="PC1" />
+      <EntityChunk ID="6" value="EC3" />
+      <PredicateChunk ID="7" value="PC" />
+   </CQTemplate>
+   <CQTemplate ID="92" value="Which types are disjoint from [EC1]">
+      <TextChunk ID="1" value="Which types are disjoint from" />
+      <EntityChunk ID="2" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="88" value="Who [PC1] [EC1]">
+      <TextChunk ID="1" value="Who" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="87" value="Who [PC1] [EC1] [EC2]">
+      <TextChunk ID="1" value="Who" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC1" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="89" value="Who [PC1] [EC1] for [EC2]">
+      <TextChunk ID="1" value="Who" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC1" />
+      <TextChunk ID="4" value="for" />
+      <EntityChunk ID="5" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="7" value="Who [PC1] [EC1] or [PC2] [EC2]">
+      <TextChunk ID="1" value="Who" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC1" />
+      <TextChunk ID="4" value="or" />
+      <PredicateChunk ID="5" value="PC2" />
+      <EntityChunk ID="6" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="86a" value="Who are [EC1] of [EC2]">
+      <TextChunk ID="1" value="Who are" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="87a" value="Who else [PC1] [EC1] [EC2]">
+      <TextChunk ID="1" value="Who else" />
+      <PredicateChunk ID="2" value="PC1" />
+      <EntityChunk ID="3" value="EC1" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
+   <CQTemplate ID="86" value="Who is [EC1] of [EC2]">
+      <TextChunk ID="1" value="Who is" />
+      <EntityChunk ID="2" value="EC1" />
+      <TextChunk ID="3" value="of" />
+      <EntityChunk ID="4" value="EC" />
+   </CQTemplate>
 </RecordList>
 
 

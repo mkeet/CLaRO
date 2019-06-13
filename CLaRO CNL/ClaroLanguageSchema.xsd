@@ -3,8 +3,19 @@
 <!--Perhaps add a claro namespace??-->
 
 
+<!--Defining Ordering-->
+<xsd:element name="Ordering">
+	<xsd:complexType>
+	<xsd:attribute name="IndexInT" type="xsd:integer"/>
+	</xsd:complexType>
+</xsd:element>
+
+
 <!--Defining bases-->
 <xsd:complexType name="TemplateChunk" abstract="true">
+	<xsd:sequence>
+		<xsd:element ref="Ordering" minOccurs="1" maxOccurs="1"/>
+	</xsd:sequence>
 	<xsd:attribute name="ID" type="xsd:integer"/>
 	<xsd:attribute name="value" type="xsd:string"/>
 </xsd:complexType>
@@ -15,17 +26,19 @@
 </xsd:complexType>
 
 <!--Defining concrete chunks-->
-<xsd:complexType name="EntityChunk">
-	<xsd:complexContent>
-		<xsd:extension base="TemplateChunk"/>
-	</xsd:complexContent>
-</xsd:complexType>
+<xsd:element name="EntityChunk">
+	<xsd:complexType>
+		<xsd:complexContent>
+			<xsd:extension base="TemplateChunk"/>
+		</xsd:complexContent>
+	</xsd:complexType>
+</xsd:element>
 
 <xsd:element name="OptionalChunk" abstract="true">
 	<xsd:complexType>
-	<xsd:complexContent>
-		<xsd:extension base="TemplateChunk"/>
-	</xsd:complexContent>
+		<xsd:complexContent>
+			<xsd:extension base="TemplateChunk"/>
+		</xsd:complexContent>
 	</xsd:complexType>
 </xsd:element>
 <xsd:element name="TextChunk" substitutionGroup="OptionalChunk" />
@@ -40,12 +53,24 @@
 				<xsd:choice maxOccurs="unbounded">
 					<xsd:element name="EntityChunk" minOccurs="1" maxOccurs="unbounded"/>
 					<xsd:element ref="OptionalChunk" minOccurs="0" maxOccurs="unbounded"/>
+					<!--Defining CQ template fragments-->
 					<xsd:element name="CQTemplate" minOccurs="0" maxOccurs="unbounded"/>
+					<!--Defining CQ template variants-->
+					<xsd:element name="CQTemplateVariants" minOccurs="0" maxOccurs="1">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element ref="CQTemplate" minOccurs="1" maxOccurs="unbounded"/>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
 				</xsd:choice>
 				</xsd:extension>
 			</xsd:complexContent>
 	</xsd:complexType>
 </xsd:element>
+
+
+
 
 <!--Defining ontology-->
 <xsd:element name="Ontology">

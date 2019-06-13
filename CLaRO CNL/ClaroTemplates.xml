@@ -10,11 +10,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="3" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -40,11 +36,7 @@
       <TextChunk value="from">
          <Ordering IndexInT="7" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC4">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="8" />
       </EntityChunk>
    </CQTemplate>
@@ -64,11 +56,7 @@
       <TextChunk value="to">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -82,11 +70,7 @@
       <PredicateChunk value="PC2">
          <Ordering IndexInT="3" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -106,11 +90,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="5" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -130,11 +110,7 @@
       <PredicateChunk value="PC2">
          <Ordering IndexInT="5" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -148,11 +124,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -166,11 +138,7 @@
       <TextChunk value="on">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -190,11 +158,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="5" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -220,11 +184,7 @@
       <PredicateChunk value="PC2">
          <Ordering IndexInT="7" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="8" />
       </EntityChunk>
    </CQTemplate>
@@ -244,11 +204,7 @@
       <TextChunk value="on">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -277,11 +233,7 @@
       <TextChunk value="for">
          <Ordering IndexInT="8" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="9" />
       </EntityChunk>
    </CQTemplate>
@@ -304,11 +256,7 @@
       <TextChunk value="for">
          <Ordering IndexInT="6" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="7" />
       </EntityChunk>
    </CQTemplate>
@@ -322,11 +270,7 @@
       <TextChunk value="in">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -357,11 +301,7 @@
       <TextChunk value="for">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -421,11 +361,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="4" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="5" />
       </EntityChunk>
    </CQTemplate>
@@ -451,11 +387,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="7" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="8" />
       </EntityChunk>
    </CQTemplate>
@@ -469,11 +401,7 @@
       <TextChunk value="have">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -493,11 +421,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="5" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -505,11 +429,7 @@
       <TextChunk value="Given">
          <Ordering IndexInT="1" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1],">
-=======
-      <EntityChunk value="EC1]">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="2" />
       </EntityChunk>
       <TextChunk value="what are">
@@ -527,11 +447,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="7" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC4">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="8" />
       </EntityChunk>
    </CQTemplate>
@@ -554,11 +470,7 @@
       <TextChunk value="for">
          <Ordering IndexInT="6" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="7" />
       </EntityChunk>
    </CQTemplate>
@@ -572,11 +484,7 @@
       <TextChunk value="is">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -587,11 +495,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="2" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="3" />
       </EntityChunk>
    </CQTemplate>
@@ -608,11 +512,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="4" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="5" />
       </EntityChunk>
    </CQTemplate>
@@ -649,11 +549,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="4" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="5" />
       </EntityChunk>
    </CQTemplate>
@@ -676,11 +572,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="6" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="7" />
       </EntityChunk>
    </CQTemplate>
@@ -703,11 +595,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="6" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="7" />
       </EntityChunk>
    </CQTemplate>
@@ -752,11 +640,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="3" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -776,11 +660,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="5" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -803,11 +683,7 @@
       <EntityChunk value="EC2">
          <Ordering IndexInT="6" />
       </EntityChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="7" />
       </EntityChunk>
    </CQTemplate>
@@ -861,11 +737,7 @@
       <TextChunk value="in">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -876,11 +748,7 @@
       <EntityChunk value="EC1">
          <Ordering IndexInT="2" />
       </EntityChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="3" />
       </EntityChunk>
    </CQTemplate>
@@ -897,11 +765,7 @@
       <TextChunk value="for">
          <Ordering IndexInT="4" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="5" />
       </EntityChunk>
    </CQTemplate>
@@ -918,11 +782,7 @@
       <TextChunk value="or">
          <Ordering IndexInT="4" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="5" />
       </EntityChunk>
    </CQTemplate>
@@ -953,11 +813,7 @@
       <EntityChunk value="EC2">
          <Ordering IndexInT="4" />
       </EntityChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="5" />
       </EntityChunk>
    </CQTemplate>
@@ -988,11 +844,7 @@
       <TextChunk value="for">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -1015,11 +867,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="6" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="7" />
       </EntityChunk>
    </CQTemplate>
@@ -1033,11 +881,7 @@
       <TextChunk value="in">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -1071,11 +915,7 @@
       <TextChunk value="with">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -1104,11 +944,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="8" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="9" />
       </EntityChunk>
    </CQTemplate>
@@ -1125,11 +961,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="4" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="5" />
       </EntityChunk>
    </CQTemplate>
@@ -1158,11 +990,7 @@
       <PredicateChunk value="PC2">
          <Ordering IndexInT="8" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="9" />
       </EntityChunk>
    </CQTemplate>
@@ -1176,11 +1004,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="3" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -1217,11 +1041,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="5" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -1241,11 +1061,7 @@
       <TextChunk value="given">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -1265,11 +1081,7 @@
       <TextChunk value="in">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -1289,11 +1101,7 @@
       <TextChunk value="on">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -1313,11 +1121,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="5" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -1343,11 +1147,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="7" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="8" />
       </EntityChunk>
    </CQTemplate>
@@ -1373,11 +1173,7 @@
       <TextChunk value="in">
          <Ordering IndexInT="7" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="8" />
       </EntityChunk>
    </CQTemplate>
@@ -1403,11 +1199,7 @@
       <TextChunk value="on">
          <Ordering IndexInT="7" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="8" />
       </EntityChunk>
    </CQTemplate>
@@ -1421,11 +1213,7 @@
       <TextChunk value="are">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -1445,11 +1233,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -1469,11 +1253,7 @@
       <TextChunk value="with respect to">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -1493,11 +1273,7 @@
       <TextChunk value="have, and what is its">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -1517,17 +1293,10 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="5" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3],">
          <Ordering IndexInT="6" />
       </EntityChunk>
       <EntityChunk value="EC4">
-=======
-      <EntityChunk value="EC3]">
-         <Ordering IndexInT="6" />
-      </EntityChunk>
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="7" />
       </EntityChunk>
    </CQTemplate>
@@ -1547,11 +1316,7 @@
       <TextChunk value="regarding">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -1577,11 +1342,7 @@
       <TextChunk value="and">
          <Ordering IndexInT="7" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC4">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="8" />
       </EntityChunk>
    </CQTemplate>
@@ -1609,11 +1370,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="2" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="3" />
       </EntityChunk>
    </CQTemplate>
@@ -1630,11 +1387,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="4" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="5" />
       </EntityChunk>
    </CQTemplate>
@@ -1654,11 +1407,7 @@
       <TextChunk value="for">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -1678,11 +1427,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -1696,11 +1441,7 @@
       <TextChunk value="for">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -1714,11 +1455,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -1732,11 +1469,7 @@
       <TextChunk value="that have">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -1750,11 +1483,7 @@
       <TextChunk value="to">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -1768,11 +1497,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -1780,11 +1505,7 @@
       <TextChunk value="What are the main categories of">
          <Ordering IndexInT="1" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="2" />
       </EntityChunk>
    </CQTemplate>
@@ -1792,11 +1513,7 @@
       <TextChunk value="What are the main types of">
          <Ordering IndexInT="1" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="2" />
       </EntityChunk>
    </CQTemplate>
@@ -1818,11 +1535,7 @@
       <TextChunk value="What are the possible types of">
          <Ordering IndexInT="1" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="2" />
       </EntityChunk>
    </CQTemplate>
@@ -1830,11 +1543,7 @@
       <TextChunk value="What are the types of">
          <Ordering IndexInT="1" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="2" />
       </EntityChunk>
    </CQTemplate>
@@ -1851,11 +1560,7 @@
       <EntityChunk value="EC2">
          <Ordering IndexInT="4" />
       </EntityChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="5" />
       </EntityChunk>
    </CQTemplate>
@@ -1872,11 +1577,7 @@
       <TextChunk value="not">
          <Ordering IndexInT="4" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="5" />
       </EntityChunk>
    </CQTemplate>
@@ -1884,11 +1585,7 @@
       <TextChunk value="What is">
          <Ordering IndexInT="1" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="2" />
       </EntityChunk>
    </CQTemplate>
@@ -1902,11 +1599,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="3" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -1920,11 +1613,7 @@
       <TextChunk value="for">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -1938,11 +1627,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -1962,11 +1647,7 @@
       <TextChunk value="for">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -1989,11 +1670,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="6" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="7" />
       </EntityChunk>
    </CQTemplate>
@@ -2013,11 +1690,7 @@
       <TextChunk value="that have">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -2043,11 +1716,7 @@
       <TextChunk value="and">
          <Ordering IndexInT="7" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC4">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="8" />
       </EntityChunk>
    </CQTemplate>
@@ -2073,11 +1742,7 @@
       <TextChunk value="as">
          <Ordering IndexInT="7" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC4">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="8" />
       </EntityChunk>
    </CQTemplate>
@@ -2091,11 +1756,7 @@
       <TextChunk value="and">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2109,11 +1770,7 @@
       <TextChunk value="is">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2127,11 +1784,7 @@
       <TextChunk value="is">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2145,11 +1798,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="3" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2163,11 +1812,7 @@
       <TextChunk value="are">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2198,11 +1843,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="2" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="3" />
       </EntityChunk>
    </CQTemplate>
@@ -2233,11 +1874,7 @@
       <TextChunk value="for">
          <Ordering IndexInT="4" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="5" />
       </EntityChunk>
    </CQTemplate>
@@ -2254,11 +1891,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="4" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="5" />
       </EntityChunk>
    </CQTemplate>
@@ -2301,11 +1934,7 @@
       <TextChunk value="for">
          <Ordering IndexInT="6" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="7" />
       </EntityChunk>
    </CQTemplate>
@@ -2319,11 +1948,7 @@
       <TextChunk value="like">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2337,11 +1962,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2355,11 +1976,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2373,11 +1990,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="3" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2443,11 +2056,7 @@
       <PredicateChunk value="PC2">
          <Ordering IndexInT="7" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="8" />
       </EntityChunk>
    </CQTemplate>
@@ -2467,11 +2076,7 @@
       <PredicateChunk value="PC2">
          <Ordering IndexInT="5" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -2485,11 +2090,7 @@
       <TextChunk value="are">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2509,11 +2110,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -2527,11 +2124,7 @@
       <TextChunk value="is">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2551,11 +2144,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="5" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC3">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -2589,11 +2178,7 @@
       <TextChunk value="Which are">
          <Ordering IndexInT="1" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="2" />
       </EntityChunk>
    </CQTemplate>
@@ -2610,11 +2195,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="4" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="5" />
       </EntityChunk>
    </CQTemplate>
@@ -2628,11 +2209,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="3" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2646,11 +2223,7 @@
       <TextChunk value="are">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2681,11 +2254,7 @@
       <TextChunk value="Which types are disjoint from">
          <Ordering IndexInT="1" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="2" />
       </EntityChunk>
    </CQTemplate>
@@ -2696,11 +2265,7 @@
       <PredicateChunk value="PC1">
          <Ordering IndexInT="2" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC1">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="3" />
       </EntityChunk>
    </CQTemplate>
@@ -2714,11 +2279,7 @@
       <EntityChunk value="EC1">
          <Ordering IndexInT="3" />
       </EntityChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2735,11 +2296,7 @@
       <TextChunk value="for">
          <Ordering IndexInT="4" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="5" />
       </EntityChunk>
    </CQTemplate>
@@ -2759,11 +2316,7 @@
       <PredicateChunk value="PC2">
          <Ordering IndexInT="5" />
       </PredicateChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="6" />
       </EntityChunk>
    </CQTemplate>
@@ -2777,11 +2330,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2795,11 +2344,7 @@
       <EntityChunk value="EC1">
          <Ordering IndexInT="3" />
       </EntityChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>
@@ -2813,11 +2358,7 @@
       <TextChunk value="of">
          <Ordering IndexInT="3" />
       </TextChunk>
-<<<<<<< HEAD
       <EntityChunk value="EC2">
-=======
-      <EntityChunk value="EC">
->>>>>>> 6ad84674845471a08ea4c022c881404c6a33b3c9
          <Ordering IndexInT="4" />
       </EntityChunk>
    </CQTemplate>

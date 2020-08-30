@@ -16,7 +16,8 @@ This repository has the following resources:
 - a tool to author questions using the CLaRO templates
 
 ## Citing CLaRO
-full reference TBA in the upcoming days, as well as the zenodo DOI.
+
+Keet, C.M., Mahlaza, Z., Antia, M.-J. CLaRO: a [Controlled Language for Authoring Competency Questions](http://www.meteck.org/files/MTSR2019CLaRO.pdf). 13th Metadata and Semantics Research Conference (MTSR'19). E. Garoufallou et al. (Eds.). Springer CCIS vol. 1057, 3-15. 28-31 Oct 2019, Rome, Italy. [published version at Springer] (https://link.springer.com/chapter/10.1007/978-3-030-36599-8_1)
 
 ## Availability for use and reuse
 CLaRO is available under a CC-BY licence

@@ -14,8 +14,11 @@ This repository has the following resources:
 - the data and results of the CLaRO evaluation
 - a data file with annotations how CLaRO was created
 - a tool to author questions using the CLaRO templates
+- The newly collected CQs and rewritten CQs for CLaRO v2
+- The result of the evaluation with cleaned CLaRo and CLaRO v2
+- The CLaRO v2 templates
 
-## Citing CLaRO
+## Citing CLaRO (v1)
 
 Keet, C.M., Mahlaza, Z., Antia, M.-J. CLaRO: a [Controlled Language for Authoring Competency Questions](http://www.meteck.org/files/MTSR2019CLaRO.pdf). 13th Metadata and Semantics Research Conference (MTSR'19). E. Garoufallou et al. (Eds.). Springer CCIS vol. 1057, 3-15. 28-31 Oct 2019, Rome, Italy. [published version at Springer](https://link.springer.com/chapter/10.1007/978-3-030-36599-8_1)
 
